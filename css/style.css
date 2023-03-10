@@ -76,3 +76,16 @@ a {
     /* 这里引入的背景图片路径前要加  / */
     background: url(/images/btn.png);
 }
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size:14px;
+    color: #666666;
+}
+.user img {
+    padding-top: 8px;
+}
+.user p {
+    float: right;
+}
