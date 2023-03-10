@@ -48,3 +48,21 @@ a {
     border-bottom: 2px solid #00a4ff;
     color: #00a4ff;
 }
+/* search搜索模块 */
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 70px;
+    /* background-color: aqua; */
+}
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
