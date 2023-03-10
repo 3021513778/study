@@ -16,3 +16,15 @@ li {
 a {
     text-decoration: none;
 }
+.header {
+    height: 42px;
+    /* background-color: pink; */
+    /* 注意此地方会层叠 w 里面的margin */
+    margin: 30px auto;
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+    /* background-color: aqua; */
+}
