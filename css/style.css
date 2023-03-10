@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+body {
+    background-color: #f3f5f7;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
