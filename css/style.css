@@ -66,3 +66,13 @@ a {
     font-size: 14px;
     padding-left: 15px;
 }
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    /* background-color: red; */
+    /* 按钮button默认有个边框需要我们手动去掉 */
+    border: 0;
+    /* 这里引入的背景图片路径前要加  / */
+    background: url(/images/btn.png);
+}
