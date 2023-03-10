@@ -89,3 +89,12 @@ a {
 .user p {
     float: right;
 }
+/* banner区域 */
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+.banner .w {
+    height: 421px;
+    background: url(/images/banner2.png) no-repeat top center;
+}
