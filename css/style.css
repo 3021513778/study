@@ -9,6 +9,7 @@
 }
 body {
     background-color: #f3f5f7;
+    height: 3000px;
 }
 li {
     list-style: none;
@@ -195,4 +196,51 @@ a {
     font-size: 14px;
     margin-right: 30px;
     color: #00a4ff;
+}
+.box {
+    margin-top: 30px;
+}
+.box-hd {
+    height: 30px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.box-hd a {
+    float: right;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 30px;
+    color: #a5a5a5;
+}
+/* 把li的父亲ul 修改的足够宽 一行能撞开5个盒子就不会换行了 */
+.box-bd ul {
+    width: 1225px;
+}
+.box-bd ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.box-bd ul li img {
+    width: 100%;
+}
+.box-bd ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.box-bd .info {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+.box-bd .info span {
+    color: #ff7c2d;
 }
