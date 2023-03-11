@@ -162,3 +162,37 @@ a {
     font-size: 16px;
     font-weight: 700;
 }
+/* 精品推荐模块 */
+.goods {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px 3px rgb(0,0,0,0.1);
+    /* 行高会继承，会继承给3个孩子 */
+    line-height: 60px;
+}
+.goods h3 {
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.goods ul {
+    float: left;
+    margin-left: 30px;
+}
+.goods ul li {
+    float: left;
+}
+.goods ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #bfbfbf;
+}
+.mod {
+    float: right;
+    font-size: 14px;
+    margin-right: 30px;
+    color: #00a4ff;
+}
