@@ -17,6 +17,18 @@ li {
 a {
     text-decoration: none;
 }
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom:1;
+}
+/* 清除浮动结束 */
 .header {
     height: 42px;
     /* background-color: pink; */
@@ -243,4 +255,9 @@ a {
 }
 .box-bd .info span {
     color: #ff7c2d;
+}
+/* footer 模块 */
+.footer {
+    height: 415px;
+    background-color: aqua;
 }
