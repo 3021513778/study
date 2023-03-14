@@ -214,11 +214,28 @@ a {
 }
 .box-hd {
     height: 30px;
+    margin-bottom: 20px;
 }
 .box-hd h3 {
     float: left;
     font-size: 20px;
     color: #494949;
+}
+.box-hd ul {
+    float: left;
+    margin-left: 290px;
+}
+.box-hd ul li {
+    float: left;
+    height: 30px;
+    margin-right: 40px;
+}
+.box-hd ul li a {
+    font-size: 16px;
+    color: #868686;
+}
+.box-hd ul li .blue {
+    color: #00a4ff;
 }
 .box-hd a {
     float: right;
@@ -259,6 +276,8 @@ a {
 /* footer 模块 */
 .footer {
     height: 415px;
+    background-color: #ffffff;
+    margin-top: 30px;
 }
 .footer .w {
     padding-top: 35px;
